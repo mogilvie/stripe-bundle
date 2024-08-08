@@ -20,6 +20,9 @@ class StripeEvent extends Event
     public const COUPON_CREATED = 'stripe.coupon.created';
     public const COUPON_DELETED = 'stripe.coupon.deleted';
     public const COUPON_UPDATED = 'stripe.coupon.updated';
+    public const CREDIT_NOTE_CREATED = 'stripe.credit_note.created';
+    public const CREDIT_NOTE_UPDATED = 'stripe.credit_note.updated';
+    public const CREDIT_NOTE_VOIDED = 'stripe.credit_note.voided';
     public const CUSTOMER_CREATED = 'stripe.customer.created';
     public const CUSTOMER_DELETED = 'stripe.customer.deleted';
     public const CUSTOMER_UPDATED = 'stripe.customer.updated';
